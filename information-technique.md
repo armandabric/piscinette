@@ -2,10 +2,9 @@
 
 ## Dimensions
 
-* Dimensions intérieures (équivalent carré) : ??? cm
-* Dimensions extérieures (équivalent carré) : ??? cm
-* Hauteur d'eau : (min) ??? cm / (moyenne) ??? cm / (max) ??? cm
-* Volume d'eau : (min) ??? m3 / (moyenne) ??? m3 / (max) ??? m3
+* Diamètre interieur : 1,5 m
+* Hauteur d'eau : 0,46 m
+* Volume d'eau : 0,8 m3
 
 ## Informations diverses
 
