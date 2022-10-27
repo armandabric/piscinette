@@ -11,7 +11,7 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.svg",
+  favicon: "favicon.svg",
 
   i18n: {
     defaultLocale: "fr",
@@ -46,8 +46,7 @@ const config = {
         title: "Piscinette",
         logo: {
           alt: "Piscinette logo",
-          //src: 'img/logo.svg',
-          src: "img/favicon.svg",
+          src: "favicon.svg",
         },
       },
     }),
@@ -64,18 +63,49 @@ const config = {
         pwaHead: [
           {
             tagName: "link",
+            rel: "apple-touch-icon",
+            sizes: "180x180",
+            href: "/apple-touch-icon.png",
+          },
+          {
+            tagName: "link",
+            rel: "mask-icon",
+            href: "/safari-pinned-tab.svg",
+            color: "#5bbad5",
+          },
+          {
+            tagName: "meta",
+            rel: "application-name",
+            content: "Piscinette",
+          },
+          {
+            tagName: "meta",
+            rel: "apple-mobile-web-app-title",
+            content: "Piscinette",
+          },
+          {
+            tagName: "link",
             rel: "icon",
-            href: "/img/docusaurus.png",
+            type: "image/png",
+            sizes: "16x16",
+            href: "/favicon-16x16.png",
+          },
+          {
+            tagName: "link",
+            rel: "icon",
+            type: "image/png",
+            sizes: "32x32",
+            href: "/favicon-32x32.png",
           },
           {
             tagName: "link",
             rel: "manifest",
-            href: "/manifest.webmanifest", // your PWA manifest
+            href: "/site.webmanifest",
           },
           {
             tagName: "meta",
             name: "theme-color",
-            content: "rgb(37, 194, 160)",
+            content: "rgb(255, 255, 255)",
           },
         ],
       },
